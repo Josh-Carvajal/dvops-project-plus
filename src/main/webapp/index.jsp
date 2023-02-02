@@ -25,7 +25,6 @@
       <th scope="col">Importance</th>
       <th scope="col">Date</th>
       <th scope="col">Action</th>
-      <th scope="col">Action</th>
       
       <!-- <th scope="col">Time</th>
       <th scope="col">Edit</th> -->
