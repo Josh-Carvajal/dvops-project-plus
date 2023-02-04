@@ -23,7 +23,7 @@ import javax.servlet.RequestDispatcher;
 public class ReminderServlet extends HttpServlet {
 	private String jdbcURL = "jdbc:mysql://localhost:3307/reminders";
 	private String jdbcUsername = "root";
-	private String jdbcPassword = "";
+	private String jdbcPassword = "password";
 	
 	private static final String INSERT_REMINDERS_SQL = "INSERT INTO reminders" + " (name, reminder, status, importance, date) VALUES " + " (?, ?, ?, ?);";
 	private static final String SELECT_REMINDER_BY_ID = "select * from reminders where name =?;";
